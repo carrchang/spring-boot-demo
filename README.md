@@ -3,7 +3,8 @@
 * 根据 `resources/db/migration/V1.0.0.0_Init.sql` 里面的建表语句完善 `com.example.demo.model.User` 模型；
 * 基于 MyBatis 为 User 模型定义并实现 CRUD RESTFul 服务；
 * 完善 `resources/templates/home.html` Thymeleaf 模版，使用 HTML, CSS, JavaScript 等技术实现 User 的管理功能，
-具体包括查询 User 并用表格展示数据、新增 User、修改 User、删除 User 功能，实现过程中可以使用 jQuery，Bootstrap 以及 Thymeleaf 等技术。
+  具体包括查询 User 并用表格展示数据、新增 User、修改 User、删除 User 功能，实现过程中可以使用 jQuery，Bootstrap 以及
+   Thymeleaf 等技术，数据交互使用RESTFul Service。
 
 > **注意**
 > 1. 开始前请先查看 `application.properties` 里面的配置，获得初始用户和密码以及 MyBatis 配置；
