@@ -18,6 +18,6 @@ public interface UserMapper {
 
     @Transactional
     @Insert("insert into user(id, name, email) values(#{user.id}, #{user.name}, #{user.email})")
-    User createUser(@Param("user") User user);
+    void createUser(@Param("user") User user);
 
 }
