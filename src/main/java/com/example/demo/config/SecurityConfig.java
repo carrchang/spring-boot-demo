@@ -1,5 +1,6 @@
 package com.example.demo.config;
 
+import com.example.demo.component.CamundaAuthenticationSuccessHandler;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -18,6 +19,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .formLogin()
                 .loginPage("/login")
+                .successHandler(new CamundaAuthenticationSuccessHandler())
                 .permitAll()
                 .and()
                 .logout()
