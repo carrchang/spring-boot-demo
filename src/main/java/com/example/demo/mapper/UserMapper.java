@@ -13,11 +13,11 @@ import java.util.List;
 @Transactional(readOnly = true)
 public interface UserMapper {
 
-    @Select("select * from user")
+    @Select("select * from demo_user")
     List<User> getUsers();
 
     @Transactional
-    @Insert("insert into user(id, name, email) values(#{user.id}, #{user.name}, #{user.email})")
+    @Insert("insert into demo_user(id, name, email) values(#{user.id}, #{user.name}, #{user.email})")
     void createUser(@Param("user") User user);
 
 }
