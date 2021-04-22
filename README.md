@@ -25,6 +25,6 @@
 * [Securing a Web Application](https://spring.io/guides/gs/securing-web/)
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 * [MyBatis Quick Start](https://github.com/mybatis/spring-boot-starter/wiki/Quick-Start)
-* [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
+* [Handling Form Submission](https://github.com/spring-guides/gs-handling-form-submission)
